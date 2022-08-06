@@ -44,10 +44,14 @@ function Header() {
             </div>
         </div>
         {/* right */}
-        <div className='flex items-center sm:space-x-2'>
+        <div className='flex items-center sm:space-x-2 justify-end'>
             {/* Profile Pic */}
-
             <p className='font-semibold pr-3 whitespace-nowrap'>Brian Spencer</p>
+
+            <ViewGridIcon className='icon' />
+            <ChatIcon className='icon' />
+            <BellIcon className='icon' />
+            <ChevronDownIcon className='icon' />
         </div>
     </div>
   )
