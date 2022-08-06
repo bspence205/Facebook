@@ -1,16 +1,26 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Facebook</title>
+        <link rel="icon" href="/favicon.facebook.svg" />
       </Head>
+    
+    <Header />
+    {/* Header */}
 
-      <h1>Facebook Clone</h1>
+    <main>
+      {/* Sidebar */}
+      {/* feed */}
+      {/* Widgets */}
+    </main>
+    
+    
     </div>
   )
 }
